@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon premier site</title>
+  <!-- On relie la feuille de style CSS à la page -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- En-tête : nom et menu de navigation -->
+  <header class="entete">
+    <a href="#" class="logo">Votre Nom</a>
+    <nav>
+      <ul class="menu">
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Section d'accueil -->
+    <section class="accueil">
+      <h1>Bonjour, je suis <span class="accent">Votre Nom</span></h1>
+      <p>J'apprends le développement web et voici mon tout premier site.</p>
+      <a href="#contact" class="bouton">Me contacter</a>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="section">
+      <h2>À propos de moi</h2>
+      <p>
+        Écrivez ici quelques lignes sur vous : votre parcours, ce qui vous
+        passionne et ce que vous souhaitez apprendre.
+      </p>
+    </section>
+
+    <!-- Section Compétences : une grille de cartes -->
+    <section id="competences" class="section">
+      <h2>Compétences</h2>
+      <div class="cartes">
+        <article class="carte">
+          <h3>HTML</h3>
+          <p>La structure et le contenu des pages web.</p>
+        </article>
+        <article class="carte">
+          <h3>CSS</h3>
+          <p>Les couleurs, les polices et la mise en page.</p>
+        </article>
+        <article class="carte">
+          <h3>JavaScript</h3>
+          <p>Prochaine étape : rendre les pages interactives.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Envie d'échanger ? Écrivez-moi :</p>
+      <a href="mailto:vous@exemple.com" class="bouton">vous@exemple.com</a>
+    </section>
+  </main>
+
+  <!-- Pied de page -->
+  <footer class="pied">
+    <p>&copy; 2026 Votre Nom. Fait avec HTML et CSS.</p>
+  </footer>
+
+</body>
+</html>

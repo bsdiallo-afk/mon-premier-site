@@ -122,6 +122,34 @@ body {
   margin-bottom: 0.5rem;
 }
 
+/* ===== Liens vers les réseaux (section Contact) ===== */
+.reseaux-titre {
+  margin-top: 2rem;
+}
+
+.reseaux {
+  display: flex;      /* place les liens côte à côte */
+  flex-wrap: wrap;    /* passe à la ligne s'il n'y a plus de place */
+  gap: 1rem;
+  list-style: none;   /* enlève les puces de la liste */
+  margin-top: 0.75rem;
+}
+
+.reseaux a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: var(--couleur-accent);
+  border: 2px solid var(--couleur-accent); /* bouton « contour » */
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.reseaux a:hover {
+  background: var(--couleur-accent); /* au survol, le bouton se remplit */
+  color: white;
+}
+
 /* ===== Pied de page ===== */
 .pied {
   text-align: center;
